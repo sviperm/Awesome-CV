@@ -152,8 +152,11 @@
 \setbool{acvSectionColorHighlight}{true}
 
 % Awesome section color
-\def\@sectioncolor#1#2#3{%
-  \ifbool{acvSectionColorHighlight}{{\color{awesome}#1#2#3}}{#1#2#3}%
+% \def\@sectioncolor#1#2#3{%
+%   \ifbool{acvSectionColorHighlight}{{\color{awesome}#1#2#3}}{#1#2#3}%
+% }
+\def\@sectioncolor{
+  \ifbool{acvSectionColorHighlight}{\color{awesome}}{}
 }
 
 
@@ -428,6 +431,7 @@
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{K}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
 
 % Use to draw horizontal line with specific thickness
 \def\vhrulefill#1{\leavevmode\leaders\hrule\@height#1\hfill \kern\z@}
@@ -716,7 +720,7 @@
   \begin{center}
     \setlength\tabcolsep{1ex}
     \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} r L{\textwidth * \real{0.9}}}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} r K{13.2cm}}
 }{%
     \end{tabular*}
   \end{center}

@@ -29,7 +29,7 @@
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-red}
+\colorlet{awesome}{awesome-skyblue}
 % Uncomment if you would like to specify your own color
 % \definecolor{awesome}{HTML}{CA63A8}
 
@@ -53,17 +53,17 @@
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
-\photo[circle,noedge,left]{./examples/profile}
-\name{Claud D.}{Park}
-\position{Software Architect{\enskip\cdotp\enskip}Security Expert}
-\address{42-8, Bangbae-ro 15-gil, Seocho-gu, Seoul, 00681, Rep. of KOREA}
+% \photo[circle,noedge,left]{./examples/profile}
+\name{Vladislav}{Sobolev}
+\position{Senior Data Scientist{\enskip\cdotp\enskip}Machine Learning Engineer}
+% \address{42-8, Bangbae-ro 15-gil, Seocho-gu, Seoul, 00681, Rep. of KOREA}
 
-\mobile{(+82) 10-9030-1843}
-\email{posquit0.bj@gmail.com}
+% \mobile{(+82) 10-9030-1843}
+\email{vladislav.sobolev.work@gmail.com}
 %\dateofbirth{January 1st, 1970}
-\homepage{www.posquit0.com}
-\github{posquit0}
-\linkedin{posquit0}
+% \homepage{www.posquit0.com}
+\github{sviperm}
+\linkedin{vladislav-sobolev}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
@@ -76,7 +76,7 @@
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra information}
 
-\quote{``Be the change that you want to see in the world."}
+% \quote{``Be the change that you want to see in the world."}
 
 
 %-------------------------------------------------------------------------------
@@ -88,15 +88,17 @@
   {Company Recruitment Team}
   {Google Inc.\\1600 Amphitheatre Parkway\\Mountain View, CA 94043}
 % The date on the letter, default is the date of compilation
-\letterdate{\today}
+% \letterdate{\today}
+\letterdate{}
 % The title of the letter
-\lettertitle{Job Application for Software Engineer}
+\lettertitle{Job Application for Senior Data Scientist}
 % How the letter is opened
-\letteropening{Dear Mr./Ms./Dr. LastName,}
+% \letteropening{Dear Mr./Ms./Dr. LastName,}
+\letteropening{Dear Hiring Manager,}
 % How the letter is closed
 \letterclosing{Sincerely,}
 % Any enclosures with the letter
-\letterenclosure[Attached]{Curriculum Vitae}
+% \letterenclosure[Attached]{Curriculum Vitae}
 
 
 %-------------------------------------------------------------------------------
@@ -109,8 +111,9 @@
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
-  {\today}
-  {Claud D. Park~~~·~~~Cover Letter}
+  % {\today}
+  {}
+  {Vladislav Sobolev~~~·~~~Cover Letter}
   {}
 
 % Print the title with above letter information
@@ -121,14 +124,35 @@
 %-------------------------------------------------------------------------------
 \begin{cvletter}
 
-\lettersection{About Me}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
+% \lettersection{About Me}
+% \lettersection{Why Google?}
+% \lettersection{Why Me?}
 
-\lettersection{Why Google?}
-Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+% Opening paragraph: State why you are writing; how you learned of the organization or position, and basic information about yourself.
 
-\lettersection{Why Me?}
-Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
+I'm applying for the Lead Data Scientist position at -----. I came across the posting for this position on the Internet while looking for a job in the gamedev / publisher field. I have more than 5 years of academic and business experience as Data Scientist and Machine Learning Engineer in healthcare and gamedev indastries. I am a highly motivated data scientist.
+% who loves videogames
+
+% 2nd paragraph: Tell why you are interested in the employer or type of work the employer does (Simply stating that you are  interested does not tell why, and can sound like a form letter). Demonstrate that you know enough about the employer  or position to relate your background to the employer or position. Mention specific qualifications which make you a good  fit for the employer’s needs. (Focus on what you can do for the employer, not what the employer can do for you.) This  is an opportunity to explain in more detail relevant items in your resume. Refer to the fact that your resume is enclosed.  Mention other enclosures if such are required to apply for a position. 
+
+\bigskip
+\begin{cvitems}
+  
+  \item {At SberGames I implemented scalable machine learning and optimization algorithms that used in production on big data.}
+  \item {I have experience in designing and running randomized controlled experiments, analyze the resulting data and communicate results with other teams.}
+  \item {I developed various models to boost studios profit, such as churn/retention prediction model, purchase prediction model, life-time prediction and much more!}
+  \item {I collaborated with game-designers and game analysts to find the strengths and weaknesses in game-design using the power of data science.}
+  \item {At SberGames I was also responsible for creating a database structure to collect telemetry on games and devices in a single format, this task required me to interact with many people from different departments and varying levels of seniority.}
+  \item {Also I created a marketing campaign payback model, which can predict how good current campain is and do we need to spend money on this.}
+  
+\end{cvitems}
+\bigskip
+
+% 3rd paragraph: Indicate that you would like the opportunity to interview for a position or to talk with the employer to learn  more about their opportunities or hiring plans. State what you will do to follow up, such as telephone the employer within  two weeks. If you will be in the employer’s location and could offer to schedule a visit, indicate when. State that you would  be glad to provide the employer with any additional information needed. Thank the employer for her/his consideration.
+
+I am confident that I can contribute my knowledge and experiences to the success and grow of Koch Media. I belive that gamedev industry is a huge field where we can apply alomost every type of ML task: from simple classification and regression to 2D content generation with SOTA models like DALL·E.
+
+I am a fully responsible person with strong leadership skills, able to work and collaborate with a dynamic team, explain scientific things easily to non-technical colleagues, and also work independently. If you need more information, I can be contacted by email or telegram above.
 
 \end{cvletter}
 
