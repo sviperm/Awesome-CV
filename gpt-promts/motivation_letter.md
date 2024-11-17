@@ -51,25 +51,61 @@ MSC iN MEDiCiNE CYBERNETiCS Sep. 2014 ‑ Jun. 2020
 • Medicine, public health, math, statistics,computer science, machine learning
 ```
 
-Job add:
+Job Description:
 
 ```
-SoundCloud is a next-generation music entertainment company powered by an ecosystem of artists, fans, and thriving communities on the pulse of what's new, now and next in culture. As one of the world's most influential cultural platforms, SoundCloud holds a singular market position as both a music-streaming service with the largest catalog of music, and an artist services and distribution business to help artists grow long-term, successful careers.
+About the job
+Hey there! 👋
 
-We are looking for a Machine Learning Engineer for the SoundCloud Music Discovery (Search and Recommendation) group with a mission to help users to find and play what they're looking for and enable them to explore further to discover great, new music that exists nowhere else and connect directly with the artists who make it. In the role of Machine Learning Engineer you will be working in the multidisciplinary team of engineers and scientists focused on exploring, designing, building and deploying state of the art Machine Learning algorithms with a focus on delivering high accuracy music recommendation at scale.
+Are you an ambitious Senior Machine Learning engineer? Do you want to use your data science and engineering skills to help fast-growing tech scale-ups by means of ML? Furthermore, are you ready for the adventure of expanding Enjins together with our ambitious team? Then keep reading!
 
-As a Machine Learning Engineer you will be working on designing and deploying state of the art Machine Learning algorithms with a focus on delivering high accuracy at scale. You will also be responsible for the high availability and consistent quality of your services through the design and development of automated testing and monitoring. We care more about your ability to read, analyze and implement science papers in the form of production ready code and positive attitude towards getting things done than any prior knowledge of a particular language or framework.
+Why? 🤔
 
-About you:
-Bachelor's or Master's degree in Statistics, Mathematics, Engineering or Computer Science.
-4+ years of experience working in AI/ML and up-to-date with recent advances in the field
-Practical experience of deploying ML solutions to production (on a public cloud) with demonstrable real business impact
-Experience writing a production ready code.
-Solid knowledge of basic machine learning concepts and frameworks including Tensorflow
-Good understanding of mathematics and statistics
-Good understanding of algorithms and datastructures
-Solid communication skills and enjoy working as a part of a cross-functional, solutions oriented team
-Strong problem solving skills and the ability to deliver concise, actionable solutions
-You seek impact and outcome, drive innovation and apply agile best practices
-You love music
+At Enjins we want to make Machine Learning solutions that are here to stay. Our mission is to become the go-to ML engineering company in the world of tech scale-ups. for both talent and customers.
+
+How? 🚀
+
+We are driven by impact, and so is our vision on Machine Learning. We don’t want a data scientists’ laptop to be a graveyard for brilliant models. That’s why we created an approach that allows us to actually implement Machine Learning that realises business value. This approach demands our ML engineers to stand out in engineering, data science and consulting skills.
+
+What? [You'll be doing] 👀
+
+As a Machine Learning Engineer, you'll work within our growing Machine Learning team, comprising of 15 other equally amazing Machine Learning Engineers.
+
+In this role, there is plenty of room for your ideas. Our team is growing fast and we'll support your growth ambitions as much as possible. We're flexible, and as long as you're proactive and take responsibility for your own work, we'll be a great match!
+
+Some of the responsibilities [but not limited to;]
+You become a full member of our fast-growing ML Engineering team.
+You’ll work in small teams on ML projects for innovative Berlin based clients(industries from sharing economy clients to MedTech).
+You’ll develop and implement robust ML applications for these clients.
+You’ll apply your data engineering, computer science and machine learning knowledge on projects and you work with the latest technologies such as Kubernetes, Airflow and Kafka.
+You’ll translate the the to business stakeholders and focus on the human aspects to increase the impact of our ML applications.
+You’ll manage a growing set of projects.
+Together we will keep building our young company Enjins, in which you will play a more and more important role!
+
+Within 1 month you'll:
+Finish the Enjins ML Engineering onboarding program, in which you will understand how Enjins work, be trained in our approach and become a certified cloud practitioner in AWS/Azure or GCP.
+Start your first customer project!
+
+Within 3 months you'll:
+Develop and implement robust ML applications for your client, working on building new solutions and ironing out any old integration problems. This way laying the foundation of your ML engineering skills.
+Had multiple feedback moments with your project team before and after client meetings, to help you to improve your consulting and project management skills.
+
+Within 6 months you'll:
+You'll identify new tools / methods / processes that work best.
+Have helped in the interview process for additional ML Engineers to join Enjins’ growing team.
+Have helped your client move along rapidly - their velocity has increased significantly
+
+Requirements
+
+Minimum Qualifications:🚶‍♀️
+You have a relevant background with respect to Machine Learning Engineering and a minimum of 2 years of relevant working experience.
+You are ambitious, pragmatic and proactive and you like to work in small teams for innovative clients.
+You are not afraid to connect with our clients on board level (CTO, CFO, CIO, etc) to achieve maximum results.
+You know your way around Python, SQL and Git.
+You are fluent in both German and English and are eligible to work in Berlin.
+
+Preferred Qualifications: 🏃‍♀️
+You have experience with at least one cloud platform (AWS, Azure or GCP) and its data engineering components.
+You have experience with the world of containerization (Kubernetes & Docker), networking, ETL/ELT-tools and understand the basic concepts of MLOps.
+You are a passionate engineer who loves discovering new programming languages, frameworks or cloud services. After all, our world is changing continuously!
 ```
