@@ -294,6 +294,10 @@
 % Usage: \github{<github-nick>}
 \newcommand*{\github}[1]{\def\@github{#1}}
 
+% Defines writer's telegram (optional)
+% Usage: \telegram{<telegram-nick>}
+\newcommand*{\telegram}[1]{\def\@telegram{#1}}
+
 % Defines writer's gitlab (optional)
 % Usage: \gitlab{<gitlab-nick>}
 \newcommand*{\gitlab}[1]{\def\@gitlab{#1}}
@@ -506,11 +510,11 @@
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
           \href{http://\@homepage}{\faHome\acvHeaderIconSep\@homepage}%
         }%
-      \ifthenelse{\isundefined{\@github}}%
+      \ifthenelse{\isundefined{\@telegram}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://github.com/\@github}{\faGithubSquare\acvHeaderIconSep\@github}%
+          \href{https://t.me/\@telegram}{\faPaperPlane\acvHeaderIconSep\@telegram}%
         }%
       \ifthenelse{\isundefined{\@gitlab}}%
         {}%
@@ -535,6 +539,12 @@
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
           \href{https://www.linkedin.com/in/\@linkedin}{\faLinkedin\acvHeaderIconSep\@linkedin}%
+        }%
+      \ifthenelse{\isundefined{\@github}}%
+        {}%
+        {%
+          \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
+          \href{https://github.com/\@github}{\faGithubSquare\acvHeaderIconSep\@github}%
         }%
       \ifthenelse{\isundefined{\@orcid}}%
         {}%
